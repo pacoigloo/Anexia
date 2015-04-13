@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Anexia</title>
+        <link rel="stylesheet" href="css/layout.css">
+    </head>
+    <body ng-app="single-page-app">
+        <div id="page-header">
+            <img src="img/menucito.png" alt="menu" id="menucito">
+            <h3>Lanzamiento</h3>
+            <h1>Anexia&reg;</h1>
+        </div>
+        <div ng-controller="cfgController" id="menu-flotante">
+            <img src="img/logo-tq-float.png" alt="Logo TQ">
+            <h4>Lanzamiento Anexia&reg;</h4>
+            <div><a href="#/">Inicio</a></div>
+            <div><a href="#/agenda">Agenda</a></div>
+            <div><a href="#/sitios">Sitios de interes</a></div>
+            <div><a href="#/networking">Networking</a></div>
+        </div>
+        <div id="cover-menu"></div>
+        <div ng-view></div>
+        <img src="img/footer.png" id="imgTq" />
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script src="js/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/route.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/gmap.js"> </script>
+    </body>
+</html>

@@ -1,0 +1,493 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'NeoSans-Regular';
+    src: url('../fonts/NeoSansIntel.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'NewCicle-Fina';
+    src: url('../fonts/NewCicleFina.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    font-family: 'NeoSans-Regular';
+    overflow-x: hidden;
+    background-color: #ebebeb;
+}
+
+#page-header{
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/header-fondo.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment:fixed;
+    background-size: 100%;
+}
+#page-header > img{
+    position: absolute;
+    left: 1vw;
+    top: 20px;
+    width: 7vw;
+}
+
+#page-header > h1{
+    margin: 0;
+    font-size: 12vw;
+    font-weight: normal;
+}
+
+#page-header > h3{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 4.5vw;
+    font-weight: normal;
+}
+
+#menu-flotante{
+    background-color: rgb(42,42,42);
+    background-color: rgba(42,42,42,0.95);
+    position: absolute;
+    min-height: 100%;
+    height: auto;
+    top: 0;
+    width: 80vw;
+    text-align: center;
+    color: #fff;
+    display: none;
+    z-index: 12;
+}
+
+#menu-flotante > img{
+    width: 15vw;
+    margin-top: 5vh;
+}
+
+#menu-flotante > h4{
+    font-size: 7vw;
+    margin-top: 1vh;
+    font-weight: normal;
+}
+
+#menu-flotante a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 6vw;
+    font-family: 'NewCicle-Fina';
+    z-index: 12;
+}
+
+#menu-flotante > div{
+    padding: 2vw 0;
+    border-top: 1px solid #444444;
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 12;
+}
+#btnContainer{
+    position:relative;
+    background-color:white;
+    margin-left:15px; 
+    margin-right:15px;
+    /*width:94%;*/
+}
+#btnContainer > .btn{
+    background-color:white;
+    text-align:left;
+    width:100%;
+    cursor:pointer;
+}
+#btnContainer > .btn > .btnTexto{
+    background-color:white;
+    margin:0px;
+    float:left;
+    text-align:left;
+    width:70%;
+    cursor:pointer;
+}
+#btnContainer > .btn > .btnTexto> .nombre{
+    font-size:3.4vw;
+    margin-top:5px;
+    margin-bottom:0px;
+    font-weight:600;
+    color: black;
+}
+#btnContainer > .btn > .btnTexto > .prof{
+    font-size:3.4vw;
+    font-weight:100;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #007ccb;
+}
+#btnContainer > .btn > .btnTexto > .pais{
+    font-size:3.4vw;
+    font-weight:100;
+    margin-top:8px;
+    margin-bottom:5px;
+    color: gray;
+}
+
+#calendario{
+    height:100%;
+    max-height:70%;
+    float:left;
+    font-size:20px;
+    top:0;
+    bottom:0;
+}
+
+#calendario button{
+    background-color:#3F3F3F;
+    color:#757575;
+    border:0;
+    font-family: 'NewCicle-Fina';
+    font-size:20px;
+    padding:10%;
+    width:10%;
+}
+
+#contenT{
+    background-color:white;
+    padding:7%;
+    overflow: auto;
+}
+#contenT p{
+    margin:0;
+}
+#contenT #parrafo{
+    float:left;
+}
+#contenT img{
+    width:20px;
+    height:20px;
+}
+#cover-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+}
+/*Home*/
+#centralHome {
+    margin: 0px 15px 0px 15px;
+}
+#centralHome > h3{
+    color: black;
+    font-size:6vw;
+    text-align : center;
+    font-family: 'NewCicle-Fina';
+}
+#centralHome > p{
+    font-size:5vw;
+    font-weight:normal;
+    color:gray;
+    text-align:justify;
+    font-family: 'NewCicle-Fina';
+}
+.imgDoc{
+    background-color:white;
+    margin-top:0px;
+    margin-right:10px;
+    width:20%;
+    float:left;
+}
+.imgFlecha{
+    background-color:white;
+    float:right;
+    margin-top:5%;
+    margin-right:5px;
+    width:4%;
+}
+
+#btnContainer > #btnUno{
+    position:absolute;
+    margin-bottom: 4vh;
+    
+}
+/*Conferencista*/
+.conferencista-header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #b9b9b9;
+    width: 100%;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+.conferencista-header > img{
+    width: auto;
+    max-width: 30%;
+}
+.conferencista-header > div{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'NewCicle-Fina';
+    font-size: 4vw;
+    max-width: 68%;
+}
+.conferencista-header > div > div{
+    padding-left: 1vh;
+    color: #007ccb;
+}
+.conferencista-header > div > div:first-of-type{
+    padding: 1vh;
+    font-weight: bold;
+    color: #303030;
+    font-size: 6vw;
+}
+.conferencista-header > div > div:last-of-type{
+    padding-left: 1vh;
+    padding-top: 1vh;
+    color: #838383;
+}
+.conferencista-texto{
+    margin: 1vh;
+    padding: 3vh;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #fdfdfd;
+    color: #454545;
+    font-family: 'NewCicle-Fina';
+    font-size: 6vw;
+}
+#conferencista-horario{
+    margin: 1vh;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    color: #454545;
+    font-family: 'NewCicle-Fina';
+}
+#flecha{
+    float:right;
+}
+#horario-first{
+    color: #007ccb;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 2vh 0;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 6vw;
+}
+#horario-first > img{
+    width: auto;
+    max-width: 6%;
+}
+#horario-first > div{
+    display: inline-block;
+}
+#horario-first > div:last-of-type{
+    float: right;
+}
+#horario-otro{
+    margin: 2vh 4vh;
+    font-size: 5vw;
+    color: #838383;
+}
+#horario-otro > div:first-child{
+    font-size: 6vw;
+    font-weight: bold;
+    color: #454545;
+    padding-bottom: 1vh;
+}
+#imgTq{
+    position:fixed;
+    /*height:12%;*/
+    width: auto;
+    max-width: 30vw;
+    bottom:0;
+    right:0;
+}
+/*Sitios*/
+#interContainer > h3{
+    font-size:5vw;
+    font-weight:100;
+    margin-bottom:8px;
+    text-align:center;
+}
+
+#interContainer > #mapContainer{
+    background-color:white;
+    margin: 0px 15px 0px 15px;
+    height:180px;
+    width:92%;
+    text-align:center;
+}
+#interContainer > #mapContainer > #googleMap{
+    position:absolute;
+    display: block;
+    width: 88%;
+    height: 160px;
+    margin:10px;
+    /*margin: 4em auto;*/
+    -moz-box-shadow: 0px 5px 20px #ccc;
+    -webkit-box-shadow: 0px 5px 20px #ccc;
+    box-shadow: 0px 5px 20px #ccc;
+}
+#inBtnContainer > table{
+    margin-top: 15px;
+    margin-left: 13px;
+    border-collapse:separate;
+    width:92%;
+    text-align:center;
+}
+
+#inBtnContainer > table > tbody > tr > td{
+    width:50%;
+    cursor:pointer;
+}
+
+#inBtnContainer > table > tbody > tr > td > .tdIzq{
+    padding:0px 8px 3px 0px;
+    
+}
+#inBtnContainer > table > tbody > tr > td > .tdDer{
+    padding:0px 0px 4px 8px;
+    
+}
+#inBtnContainer > table > tbody > tr > td > img{
+    width:100%;
+}
+#jornadas{
+    width:70%;
+    float:right;
+    position:relative;
+}
+#jornadas > div{
+    border:40px;
+    padding:7%;
+    padding-top:0;
+}
+#jornadas p{
+    font-size:18px;
+    margin-left:7%;
+    color:#8D8D8D;
+}
+#dia2, #dia3, #dia4, #dia5{
+    display:none;
+}
+
+/*Networking*/
+#net-buscador{
+    padding: 3vw;
+    border-bottom: 1px solid #c6c6c6;
+}
+#net-buscador input{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    font-size: 5vw;
+    color: #2b2b2b;
+    text-align: center;
+    padding: 1.5vw 0;
+}
+::-webkit-input-placeholder {
+    color: #2b2b2b;
+    background-image: url("../img/search.png");
+    background-position: 25% 50%;
+    background-repeat: no-repeat; 
+    background-size: 4%;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #2b2b2b;
+    background-image: url("../img/search.png");
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size: 4%;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #2b2b2b;
+    background-image: url("../img/search.png");
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size: 4%;
+}
+:-ms-input-placeholder {  
+    color: #2b2b2b;
+    background-image: url("../img/search.png");
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size: 4%;
+}
+.net-medico{
+    background-color: #ffffff;
+    margin: 3vw;
+    position: relative;
+    border-bottom: 1px solid #b9b9b9;
+    font-family: 'NewCicle-Fina';
+}
+.net-medico > img:first-of-type{
+    display: inline-block;
+}
+.net-medico > img:last-of-type{
+    position: absolute;
+    right: 1%;
+    height: 30%;
+    top: 37%;
+}
+.net-medico > div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1vw;
+}
+.net-imagen{
+    font-size: 6vw;
+    margin-top: 2vw;
+    font-weight: bold;
+    color: #282828;
+}
+.net-especialidad{
+    color: #007ccb;
+    margin: 1vw 0;
+    font-size: 5vw;
+}
+.net-pais{
+    font-size: 5vw;
+    color: #838383;
+    margin: 3vw 0 2vw 0;
+}
+#net-medico1{
+    cursor: pointer;
+}
+/*Detalle net medico*/
+#detalle-contacto{
+    margin: 1vh;
+    margin-bottom: 10vh;
+    padding: 3vh;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #fdfdfd;
+    color: #454545;
+    font-family: 'NewCicle-Fina';
+    font-size: 6vw;
+}
+.detalle-metodo{
+    position: relative;
+}
+.detalle-metodo:not(:first-child){
+    padding: 2vh 0;
+    border-top: 1px solid #dbdbdb;
+}
+.detalle-metodo:first-child{
+    padding-bottom: 2vh;
+}
+.detalle-metodo > div{
+    display: inline-block;
+    padding-left: 5vw;
+}
+.detalle-metodo > img:last-of-type{
+    position: absolute;
+    height: 33%;
+    top: 33%;
+    right: 0;
+}

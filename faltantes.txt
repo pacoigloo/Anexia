@@ -1,0 +1,8 @@
+Imagen del conferencista
+Explicacion de la conferencia
+Nombre de la conferencia
+biografia del conferencista
+
+imagen default medico en networking (Se va a permitir subir fotos?)
+
+login para edicion
