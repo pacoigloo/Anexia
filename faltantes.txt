@@ -6,3 +6,6 @@ biografia del conferencista
 imagen default medico en networking (Se va a permitir subir fotos?)
 
 login para edicion
+
+Datos de conferencista: Especialidad
+

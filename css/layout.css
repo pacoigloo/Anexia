@@ -131,27 +131,57 @@ body{
     margin-bottom:5px;
     color: gray;
 }
-
 #calendario{
-    height:100%;
-    max-height:70%;
+    overflow: auto;
+    position:relative;
     float:left;
-    font-size:20px;
     top:0;
     bottom:0;
+    height:70%;
 }
-
+#calendario li{
+    margin: 0;
+    padding: 0;
+    height:20%;
+}
+#calendario ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 #calendario button{
     background-color:#3F3F3F;
     color:#757575;
     border:0;
     font-family: 'NewCicle-Fina';
-    font-size:20px;
-    padding:10%;
-    width:10%;
+    font-size:3vw;
+    height:24vw;
+    width:20vw;
 }
-
+#jornadas{
+    width:80%;
+    float:right;
+    position:relative;
+}
+#jornadas > div{
+    border:30vw;
+    padding:5%;
+    padding-top:0;
+}
+#jornadas p{
+    margin:3%;
+    margin-left:7%;
+    color:#8D8D8D;
+}
+#dia2, #dia3, #dia4, #dia5{
+    display:none;
+}
+#jornadas #hora{
+    font-size:3vw;
+    color:#018BD4;
+}
 #contenT{
+    font-size:3vw;
     background-color:white;
     padding:7%;
     overflow: auto;
@@ -160,11 +190,21 @@ body{
     margin:0;
 }
 #contenT #parrafo{
+    position:relative;
     float:left;
 }
+#contenT #flecha{
+    position:relative;
+    float:right;
+}
 #contenT img{
-    width:20px;
-    height:20px;
+    width:7%;
+    height:7%;
+}
+#contenT #flecha{
+    
+    width:2%;
+    height:5%;
 }
 #cover-menu{
     display: none;
@@ -264,9 +304,6 @@ body{
     color: #454545;
     font-family: 'NewCicle-Fina';
 }
-#flecha{
-    float:right;
-}
 #horario-first{
     color: #007ccb;
     width: 90%;
@@ -314,23 +351,30 @@ body{
 }
 
 #interContainer > #mapContainer{
+    position:relative;
     background-color:white;
     margin: 0px 15px 0px 15px;
-    height:180px;
+    height:200px;
     width:92%;
     text-align:center;
 }
-#interContainer > #mapContainer > #googleMap{
+#interContainer  > #mapContainer > div > #map{
     position:absolute;
     display: block;
-    width: 88%;
-    height: 160px;
-    margin:10px;
+    width:94%;
+    height: 180px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top:10px;
+    /*margin:10px;
     /*margin: 4em auto;*/
     -moz-box-shadow: 0px 5px 20px #ccc;
     -webkit-box-shadow: 0px 5px 20px #ccc;
     box-shadow: 0px 5px 20px #ccc;
 }
+
+
 #inBtnContainer > table{
     margin-top: 15px;
     margin-left: 13px;
@@ -355,25 +399,6 @@ body{
 #inBtnContainer > table > tbody > tr > td > img{
     width:100%;
 }
-#jornadas{
-    width:70%;
-    float:right;
-    position:relative;
-}
-#jornadas > div{
-    border:40px;
-    padding:7%;
-    padding-top:0;
-}
-#jornadas p{
-    font-size:18px;
-    margin-left:7%;
-    color:#8D8D8D;
-}
-#dia2, #dia3, #dia4, #dia5{
-    display:none;
-}
-
 /*Networking*/
 #net-buscador{
     padding: 3vw;

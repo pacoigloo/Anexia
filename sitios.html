@@ -1,23 +1,29 @@
-
-    <div id="interContainer">
+       <div id="interContainer">
         <h3>Sitios de interés</h3>
-        <div id="mapContainer">
-            <div id="googleMap"></div>
+        <div id= "mapContainer">
+            <div ng-app="mapsApp" ng-controller="mapa">
+            <div id="map"></div>
+            <!-- <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+                <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+            </div>-->
+        </div>
         </div>
     </div>
     <div id="inBtnContainer">
-<table>
+    <table>
                 <tr>
-                    <td ><img  id="imgPlaza" class="tdIzq" value = "plaza" src="img/plaza-mayo.jpg"></img></td>
-                    <td ><img  id="imgTelmo" class="tdDer" value = "telmo" src="img/san-telmo.jpg"></img></td>
+                    <td ><img class="tdIzq" onclick="initialize('plaza')" src="img/plaza-mayo.jpg"></img></td>
+                    <td ><img class="tdDer" onclick="initialize('telmo')" src="img/san-telmo.jpg"></img></td>
                 </tr>
                  <tr>
-                    <td ><img  class="tdIzq" src="img/la-boca.jpg"></img></td>
-                    <td ><img  class="tdDer" src="img/palermo.jpg"></img></td>
+                    <td ><img class="tdIzq" onclick="initialize('boca')" src="img/la-boca.jpg"></img></td>
+                    <td ><img class="tdDer" onclick="initialize('palermo')" src="img/palermo.jpg"></img></td>
                 </tr>
                  <tr>
-                    <td ><img  class="tdIzq" src="img/recoleta.jpg"></img></td>
-                    <td ><img  class="tdDer" src="img/rio-plata.jpg"></img></td>
+                    <td ><img class="tdIzq" onclick="initialize('recoleta')" src="img/recoleta.jpg"></img></td>
+                    <td ><img class="tdDer" onclick="initialize('plata')" src="img/rio-plata.jpg"></img></td>
                 </tr>
         </table>
     </div>
+    <script>
+</script>

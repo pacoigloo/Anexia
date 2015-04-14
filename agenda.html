@@ -1,17 +1,11 @@
 <section id="calendario">
-    <button onclick="MostrarHorarios('1')">
-        29<br>Abril
-    </button><br>
-    <button onclick="MostrarHorarios('2')">
-        30<br>Abril
-    </button><br>
-    <button onclick="MostrarHorarios('3')">
-        1<br>Mayo
-    </button><br><button onclick="MostrarHorarios('4')">
-        2<br>Mayo
-    </button><br><button onclick="MostrarHorarios('5')">
-        3<br>Mayo
-    </button>
+    <ul>
+        <li><button id="btn1" onclick="MostrarHorarios('1')">29<br>Abril</button></li>
+        <li><button id="btn2" onclick="MostrarHorarios('2')">30<br>Abril</button></li>
+        <li><button id="btn3" onclick="MostrarHorarios('3')">1<br>Mayo</button></li>
+        <li><button id="btn4" onclick="MostrarHorarios('4')">2<br>Mayo</button></li>
+        <li><button id="btn5" onclick="MostrarHorarios('5')">3<br>Mayo</button></li>
+    </ul>
 </section>
 <section id="jornadas">
     <div id="dia1">
@@ -20,11 +14,12 @@
                 Mañana
             </p>
             <div id="contenT">
-                <p>
-                <img src="img/check.png"></img>5:00 pm</p>
+                <p id="hora"><img src="img/check.png"></img> 5:00 pm</p>
                 <hr>
-                <p id="parrafo">Salida del grupo de su ciudad de origen hacia BA</p>
+                <div>               
+                <p>Salida del grupo de su ciudad de origen hacia BA</p>
                 <p id="flecha"><img src="img/flecha-derecha.png"></img></p>
+                </div>
             </div>
         </div>
         <div>
@@ -32,8 +27,8 @@
                 Tarde
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img>
                 <hr>
+                No hay programacion para esta jornada.
             </div>
         </div>
         <div>
@@ -41,8 +36,8 @@
                 Noche
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img>
                 <hr>
+                No hay programacion para esta jornada.
             </div>
         </div>
     </div>
@@ -52,12 +47,18 @@
                 Mañana
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img>
+                <p id="hora"><img src="img/check.png"></img> 5:00 am</p>
                 <hr>
-                Llegada del grupo a BS. Traslado al hotel Sheraton<br>
+                <p>Llegada del grupo a BS. Traslado al hotel Sheraton<br>
                 <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=260">starwoodhotels.com</a><br>
-                Almuerzo en restaurante del hotel
+                Almuerzo en restaurante del hotel</p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
+            </div>
+            <div id="contenT">
+                <p id="hora"><img src="img/check.png"></img> 6:00 am - 12:00 pm</p>
+                <hr>
+                Mañana libre. - 
+                No hay programacion para esta jornada.
             </div>
         </div>
         <div>
@@ -65,8 +66,9 @@
                 Tarde
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img><hr>
-                Conversatoriosobre el manejo no invasivo de la Artrosis de Rodilla
+                <p id="hora"><img src="img/check.png"></img> 2:00 pm - 5:00 pm</p>
+                <hr>
+                <p>Conversatoriosobre el manejo no invasivo de la Artrosis de Rodilla<br>Salon Salon Ombu</p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
             </div>
         </div>
@@ -75,8 +77,9 @@
                 Noche
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img><hr>
-                Cena de Bienvenida Steak by luis: https://steakbuenosaires.net/steak/
+                <p id="hora"><img src="img/check.png"></img> 8:00 pm</p>
+                <hr>
+                <p>Cena de Bienvenida Steak by luis: <a href="https://steakbuenosaires.net/steak/">steakbuenosaires.net</a></p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
             </div>
         </div>
@@ -87,8 +90,9 @@
                 Mañana
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img><hr>
-                City Tour por BA y Delta del Tigre
+                <p id="hora"><img src="img/check.png"></img> Todo el dia</p>
+                <hr>
+                <p>City Tour por BA y Delta del Tigre. <br> Por la mañana, City Tour por la ciudad. Esta excursión trasmite la emoción de un Buenos Aires múltiple. Conocerán el símbolo de nuestra ciudad: el Obelisco. Recorrerán plazas como las de Mayo, San Martín, Alvear, del Congreso; avenidas: Corrientes, De Mayo, 9 de Julio, entre otras; barrios con historia como La Boca & San Telmo, suntuosos como Palermo & Recoleta, y modernos como Puerto Madero. También apreciarán los parques de Lezama & Tres de Febrero, zonas comerciales y financieras, y reconocidos Estadios de Fútbol, entre otros atractivos. Hacia el medio día, se desplazarán al Delta del Tigre & Zona Norte. Allí disfrutarán de un almuerzo en el Restaurante  ̈María Luján ̈, para luego, por la tarde, navegar entre sus islas, para conocer las costumbres de los isleños, su cultura y forma de vida. Emprendiendo el regreso a la ciudad, llegarán a San Isidro, en donde podrán apreciar algunas de las majestuosas mansiones de la zona norte de nuestra provincia. Ya ingresando a la ciudad, pasarán por la Quinta Residencial de Olivos, en donde reside la Presidenta de la Nación. Servicio en privado.</p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
             </div>
         </div>
@@ -96,16 +100,16 @@
             <p>
                 Tarde
             </p>
-            <div id="contenT">
-                <img src="img/check.png"></img><hr>
+            <div id="contenT"><hr>
+                No hay programacion para esta jornada.
             </div>
         </div>
         <div>
             <p>
                 Noche
             </p>
-            <div id="contenT">
-                <img src="img/check.png"></img><hr>
+            <div id="contenT"><hr>
+                Noche libre.
             </div>
         </div>
     </div>
@@ -116,6 +120,7 @@
             </p>
             <div id="contenT">
                 <img src="img/check.png"></img><hr>
+                Dia libre. No hay programacion para esta jornada.
             </div>
         </div>
         <div>
@@ -124,6 +129,7 @@
             </p>
             <div id="contenT">
                 <img src="img/check.png"></img><hr>
+                Dia libre. No hay programacion para esta jornada.
             </div>
         </div>
         <div>
@@ -131,9 +137,9 @@
                 Noche
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img><hr>
-                Cena de clausura: TEAGUI
-                http://tegui.com.ar/
+                <p id="hora"><img src="img/check.png"></img> 8:00 pm</p>
+                <hr>
+                <p>Cena de clausura: TEAGUI <a href="http://tegui.com.ar">Tegui.com</a></p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
             </div>
         </div>
@@ -144,27 +150,11 @@
                 Mañana
             </p>
             <div id="contenT">
-                <img src="img/check.png"></img><hr>
-                Regreso del grupo a la ciudad de Origen
-                Traslado al aeropuerto
+                <p id="hora"><img src="img/check.png"></img></p>
+                <hr>
+                <p>Regreso del grupo a la ciudad de Origen</p>
+                <p>Traslado al aeropuerto</p>
                 <p><img src="img/flecha-derecha.png" id="flecha"></img></p>
-            </div>
-        </div>
-        <div>
-            <p>
-                Tarde
-            </p>
-            <div id="contenT">
-                <img src="img/check.png"></img><hr>
-            </div>
-            
-        </div>
-        <div>
-            <p>
-                Noche
-            </p>
-            <div id="contenT">
-                <img src="img/check.png"></img><hr>
             </div>
         </div>
     </div>
