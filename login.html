@@ -1,7 +1,6 @@
-<form name="loginForm" ng-controller="LoginController" ng-submit="login(credentials)" novalidate>
-    <label for="username">Documento de identificaci:</label>
-    <input type="text" id="username" ng-model="credentials.username">
-    <label for="password">Password:</label>
-    <input type="password" id="password" ng-model="credentials.password">
-    <button type="submit">Login</button>
+<!--<form name="loginForm" ng-controller="LoginController" ng-submit="login(credentials)" novalidate>-->
+<form name="loginForm">
+    <label id="login-label" for="userid">Documento de identificación:</label>
+    <input type="text" id="userid" ng-model="credentials.userid">
+    <button type="submit" id="login-submit">Login</button>
 </form>

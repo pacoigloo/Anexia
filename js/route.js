@@ -3,6 +3,9 @@ var app=angular.module('single-page-app',['ngRoute']);
 app.config(function($routeProvider){
       $routeProvider
           .when('/',{
+                templateUrl: 'login.html'
+          })
+          .when('/home',{
                 templateUrl: 'home.html'
           })
           .when('/agenda',{
@@ -10,13 +13,15 @@ app.config(function($routeProvider){
           })
           .when('/sitios',{
                 templateUrl: 'sitios.html'
-                
           })
           .when('/conferencista',{
                 templateUrl: 'conferencista.html'
           })
           .when('/detalle-medico',{
                 templateUrl: 'detalle-medico.html'
+          })
+          .when('/edit',{
+                templateUrl: 'edit.html'
           })
           .when('/networking',{
                 templateUrl: 'networking.html'
@@ -25,6 +30,12 @@ app.config(function($routeProvider){
 app.controller('cfgController',function($scope){
 
 });
+
+/*LOGIN*/
+
+
+
+/*FIN LOGIN*/
 
 app.controller('mapa', function ($scope) {
     var mapOptions = {
@@ -84,6 +95,7 @@ function onEndResize(){
 
 function imgMedicoNet(valor){
     var miAlto = $(".net-imagen").outerHeight(true) + $(".net-especialidad").outerHeight(true) + $(".net-pais").outerHeight(true);
+    miAlto = miAlto-5;
     $(".net-medico").css("height",miAlto);
     $(".net-foto").css("height",miAlto);
 }
@@ -164,10 +176,16 @@ function MostrarHorarios(dia){
         case '1':
             // code
             btn1.style.backgroundColor="#2FA1F1";
+            btn1.style.color="white";
             btn2.style.backgroundColor="#3F3F3F";
             btn3.style.backgroundColor="#3F3F3F";
             btn4.style.backgroundColor="#3F3F3F";
             btn5.style.backgroundColor="#3F3F3F";
+            
+            btn5.style.color="#757575";
+            btn2.style.color="#757575";
+            btn3.style.color="#757575";
+            btn4.style.color="#757575";
             
             dia1.style.display="block";
             dia2.style.display="none";
@@ -179,9 +197,15 @@ function MostrarHorarios(dia){
             // code
             btn1.style.backgroundColor="#3F3F3F";
             btn2.style.backgroundColor="#2FA1F1";
+            btn2.style.color="white";
             btn3.style.backgroundColor="#3F3F3F";
             btn4.style.backgroundColor="#3F3F3F";
             btn5.style.backgroundColor="#3F3F3F";
+            
+            btn1.style.color="#757575";
+            btn5.style.color="#757575";
+            btn3.style.color="#757575";
+            btn4.style.color="#757575";
             
             dia1.style.display="none";
             dia2.style.display="block";
@@ -194,8 +218,14 @@ function MostrarHorarios(dia){
             btn1.style.backgroundColor="#3F3F3F";
             btn2.style.backgroundColor="#3F3F3F";
             btn3.style.backgroundColor="#2FA1F1";
+            btn3.style.color="white";
             btn4.style.backgroundColor="#3F3F3F";
             btn5.style.backgroundColor="#3F3F3F";
+            
+            btn1.style.color="#757575";
+            btn2.style.color="#757575";
+            btn5.style.color="#757575";
+            btn4.style.color="#757575";
             
             dia1.style.display="none";
             dia2.style.display="none";
@@ -209,7 +239,13 @@ function MostrarHorarios(dia){
             btn2.style.backgroundColor="#3F3F3F";
             btn3.style.backgroundColor="#3F3F3F";
             btn4.style.backgroundColor="#2FA1F1";
+            btn4.style.color="white";
             btn5.style.backgroundColor="#3F3F3F";
+            
+            btn1.style.color="#757575";
+            btn2.style.color="#757575";
+            btn3.style.color="#757575";
+            btn5.style.color="#757575";
             
             dia1.style.display="none";
             dia2.style.display="none";
@@ -224,6 +260,12 @@ function MostrarHorarios(dia){
             btn3.style.backgroundColor="#3F3F3F";
             btn4.style.backgroundColor="#3F3F3F";
             btn5.style.backgroundColor="#2FA1F1";
+            btn5.style.color="white";
+            
+            btn1.style.color="#757575";
+            btn2.style.color="#757575";
+            btn3.style.color="#757575";
+            btn4.style.color="#757575";
             
             dia1.style.display="none";
             dia2.style.display="none";

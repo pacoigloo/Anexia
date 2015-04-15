@@ -1,11 +1,6 @@
-Imagen del conferencista
-Explicacion de la conferencia
-Nombre de la conferencia
-biografia del conferencista
+Faltan cedulas de:
+- Constanza Ramos
+- Jose Felipe Martinez
+- Juan Pablo Albanez
 
-imagen default medico en networking (Se va a permitir subir fotos?)
-
-login para edicion
-
-Datos de conferencista: Especialidad
-
+Hoja de vida del conferencista

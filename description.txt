@@ -1,0 +1,85 @@
+--Puerto Madero
+
+-34.611129, -58.361046
+
+Este barrio frente a la costa de Buenos Aires es la parte más moderna de la ciudad. Con imponentes rascacielos de cristal, elegantes restaurantes y discotecas de moda, Puerto Madero es disfrutado por ricos y famosos. Es un barrio joven que salió del mayor proyecto de urbanización de la historia de Buenos Aires. En 1993, el gobierno de la ciudad remodeló los viejos muelles que habían formado parte del puerto, dándole paso a oportunidades para un nuevo desarrollo en la ciudad, en una zona segura e ideal para el ocio y la vida de lujo. Puerto Madero es hoy en día considerado como el centro de negocios más importante y además una de las atracciones turísticas que no se pueden perder cuando estén de turismo en Buenos Aires.
+
+
+--El Ateneo - Avenida santa fe
+
+-34.595983,-58.394228
+
+El Ateneo Grand Splendid es una librería ubicada en Buenos Aires, Argentina. Destaca por situarse donde lo hiciera el teatro Grand Splendid, habiendo conservado la arquitectura original de dicho teatro, pero estando a su vez readaptado para funcionar como librería. Se encuentra en Avenida Santa Fe 1860, en el barrio de Recoleta. Fue elegida por el periódico británico The Guardian como la segunda librería más hermosa del mundo.
+
+
+--Belgrano
+
+-34.5554697,-58.4507861
+
+Belgrano es uno de los barrios más tradicionales de la ciudad de Buenos Aires y uno de los centros comerciales más importantes de la ciudad.Un barrio residencial en el norte de Buenos Aires, Belgrano ofrece tanto un oasis de paz, como la energía comercial. La clase media alta le gusta vivir entre las calles tranquilas y frondosas, así como comprar a lo largo de la concurrida Avenida Cabildo con tiendas, boutiques y cafés de esquina.
+
+
+--Obelisco
+
+-34.603739,-58.38157,17
+
+El Obelisco de Buenos Aires es un monumento considerado un ícono de la ciudad de Buenos Aires, construido en 1936 con motivo del cuarto centenario de la fundación de la ciudad. Está emplazado en la Plaza de la República, en la intersección de las avenidas Corrientes y 9 de Julio. Fue declarado Monumento Histórico Nacional.
+
+
+--Monserrat
+
+-34.6125586,-58.3793431
+
+
+Montserrat (en catalán), o Monserrat (castellanizado), es un barrio ubicado en el casco histórico de la Ciudad Autónoma de Buenos Aires (Argentina). 
+Este barrio posee una población de 39.175 habitantes (INDEC, 2001), 21.270 varones y 17.905 mujeres. Está comprendido por las calles Av. 
+Rivadavia desde 1799 hasta 1, ramal oeste de la Av. Leandro N. Alem desde 1 hasta 100, Bartolomé Mitre desde 99 a 1, 
+Av. Rosales desde 10 hasta 1, Av. La Rábida norte desde 1 hasta 200, Av. Ingeniero Huergo desde 1 hasta 200, Chile desde 1 hasta 799, 
+Piedras desde 701 hasta 800, Av. Independencia desde 801 hasta 1799 y Av. Entre Ríos desde 799 hasta 99. 
+Limita con los barrios de San Nicolás al norte, Puerto Madero al este, San Telmo y Constitución al sur, y Balvanera al oeste.
+
+
+--Retiro
+
+-34.5893978,-58.3767883
+
+Retiro es un barrio del este de la Ciudad de Buenos Aires. Está delimitado por las Avenida Córdoba y las calles Cecilia Grierson, Uruguay, Montevideo y Calle 10, y por el Río de la Plata. Limita con los barrios de Puerto Madero al sureste, San Nicolás al sur, Recoleta al oeste y con la zona portuaria al noreste. Pertenece a la Comuna 1.
+El barrio abarca una zona de oficinas lindera con el área conocida como la City, centro financiero de Buenos Aires, y otra de perfil marcadamente residencial con edificaciones de alta categoría que a menudo es considerada parte del informal Barrio Norte. No obstante, también dentro de los límites formales de Retiro se encuentra la Villa 31, uno de los más grandes asentamientos precarios de Buenos Aires, extendido sobre terrenos ferroviarios y portuarios.
+Retiro se caracteriza asimismo por ser un importante nodo de transporte, con tres estaciones de trenes y otra de subterráneos donde convergen varias líneas ferroviarias metropolitanas, además de numerosas líneas de colectivos y ómnibus de larga distancia. En cercanías del centro de transporte se ubica un área administrativa donde funcionan varias dependencias judiciales. La Plaza San Martín es uno de sus principales espacios verdes y uno de los más tradicionales de Buenos Aires.
+La zona fue en el pasado la puerta de entrada a Buenos Aires de millones de inmigrantes que llegaron al país entre fines del siglo XIX y la Segunda Guerra Mundial, alojándose transitoriamente en el Hotel de Inmigrantes que hoy funciona como museo.
+
+
+
+--Parque de la Ciudad - Av. Escalada 4502
+
+-34.671076,-58.450591
+
+Este es uno de los espacios verdes más grandes de la ciudad, ideal para pasar un día de fin de semana en familia. 
+Posee 75 hectáreas con bosques de árboles nativos (existen más de 200 variedades de especies), 
+lagos con peces y una gran variedad de pájaros (como garzas, patos y gansos) y mariposas. 
+El parque también cuenta con una biblioteca, un anfiteatro que homenajea al arquitecto catalán Antonio Gaudí, un patio andaluz, 
+esculturas y murales.
+La Torre Espacial es uno de sus atractivos principales: tiene una altura de 208 metros, 
+lo que la convierte en la más alta de la Argentina, con un mirador a 176 metros de altitud 
+(en estos momentos se encuentra cerrada por obras de mantenimiento). Asimismo se desarrollan distintas actividades deportivas, 
+haciendo uso de los caminos y calles internas del parque para realizar caminatas, ciclismo y atletismo, entre otras. 
+
+
+---Barrio Chino
+
+-34.558042,-58.450119
+
+En la Ciudad de Buenos Aires, Argentina, se conoce como barrio chino a una zona del barrio de Belgrano con eje en tres cuadras de la 
+calle Arribeños, sobre las vías del Ferrocarril Mitre y la estación Belgrano C. 
+A pesar de su nombre, viven allí diferentes comunidades asiáticas, con predominio de la taiwanesa, además de chinos continentales, 
+coreanos, japoneses (que son nikkeis argentinos y peruanos), tailandeses, etc.
+
+--
+--Palacio Barolo
+
+-34.609591,-58.385843
+
+El Palacio Barolo (también llamado Pasaje Barolo o Galería Barolo) es un edificio de oficinas ubicado sobre la Avenida de Mayo, en el barrio de Monserrat, en Buenos Aires, Argentina. Cuando fue construido era el edificio más alto de la ciudad y de América del Sur al igual que su hermano 'gemelo' en estilo ecléctico, construido por el mismo arquitecto en Montevideo, el Palacio Salvo.
+El arquitecto italiano Mario Palanti construyó este palacio a pedido del empresario textil Luis Barolo, diseñando incluso los elementos de detalle como picaportes, lámparas y jaulas de los ascensores, en un caso de auténtico concepto integral. Entre el 7 de julio de 1923, fecha de la inauguración,1 y 1935 fue el edificio más alto de la ciudad, habiendo sido desplazado del primer puesto cuando se construyó el Kavanagh. Su altura en metros es equiparable a la de un vigésimocuarto piso actual.
+Su propietario tuvo en mente construirlo para utilizar tres pisos y luego alquilar los demás. Hoy, funciona como un edificio de oficinas (tiene 520 locales), con un partido de plantas libres novedoso para la época y vigente en la actualidad. En la cúspide posee un faro de 300.000 bujías "sistema Salmoiraghi" que se encendía en ocasiones especiales. La obra costó m$n 4.500.000, y para ella se utilizaron 650.000 kg. de acero, 3.500.000 ladrillos y 70.000 barricas de cemento Portland;2 por cierto, todos los materiales decorativos fueron importados, como por ejemplo el mármol de Carrara utilizado para los revestimientos.
+Ya que por la zona corre, entubado, el viejo Arroyo Tercero del Medio; fue necesario que las fundaciones del edificio contemplaran el paso del curso de agua. Así, desde el sótano del Barolo es posible acceder, mediante un túnel, al entubado del antiguo arroyo colonial.
